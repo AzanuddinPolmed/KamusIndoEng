@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/etWordIndonesia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Kata dalam Bahasa Indonesia" />
+
+    <EditText
+        android:id="@+id/etWordEnglish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Kata dalam Bahasa Inggris" />
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tambah Kata" />
+
+    <Button
+        android:id="@+id/btnReadAll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lihat Semua Kata" />
+
+    <ListView
+        android:id="@+id/lvWords"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

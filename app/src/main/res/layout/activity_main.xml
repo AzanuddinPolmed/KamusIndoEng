@@ -9,13 +9,13 @@
         android:id="@+id/etWordIndonesia"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Kata dalam Bahasa Indonesia" />
+        android:hint="Kata Bahasa Indonesia" />
 
     <EditText
         android:id="@+id/etWordEnglish"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Kata dalam Bahasa Inggris" />
+        android:hint="Kata Bahasa Inggris" />
 
     <Button
         android:id="@+id/btnAdd"
